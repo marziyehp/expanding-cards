@@ -21,6 +21,7 @@
     margin: 10px;  
     cursor: pointer;
     transition: flex 0.5s  ease-in;
+    user-select: none;
 }
 
 .card:active{
@@ -38,7 +39,6 @@
     opacity: 0;
     transition-delay: 0.4s;
     transition: opacity 0.8s eas-in;
-    user-select: none;
 }
 
 .card:active .card-text{
