@@ -21,7 +21,10 @@
     margin: 10px;  
     cursor: pointer;
     transition: flex 0.5s  ease-in;
-    user-select: none;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
 .card:active{
