@@ -39,7 +39,6 @@
     transition-delay: 0.4s;
     transition: opacity 0.8s eas-in;
     user-select: none;
-    -webkit-user-select: none;
 }
 
 .card:active .card-text{
