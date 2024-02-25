@@ -29,6 +29,7 @@
 
 .card:active{
     flex:5;
+    -webkit-flex:5;
     border-color: black;
     border-style: solid;
 }
